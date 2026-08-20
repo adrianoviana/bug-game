@@ -65,7 +65,7 @@ function enemies() {
 
     if (enemyPosition > 0 && enemyPosition < 64 && heroPosition < 64) {
       clearInterval(upHigh)
-      theEnd.innerHTML = 'O bug te pegou! Atualize a página para tentar novamente.'
+      theEnd.textContent = 'O bug te pegou! Atualize a página para tentar novamente.'
       isGameOver = true
       //remove all children
       body.removeChild(body.firstChild)
